@@ -16,7 +16,7 @@ def asa_backup(host):
 
 
 if __name__ == '__main__':
-    # 使用多进程提高运行效率
+    # 使用多线程提高运行效率
     p = ThreadPoolExecutor()
 
     start_time = time.time()
